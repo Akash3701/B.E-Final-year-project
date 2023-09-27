@@ -1,0 +1,49 @@
+.course{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+    border-radius: 20%;
+}
+
+.about-image:hover{
+    transform: scale(1.2);
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #391285;
+}
+
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    padding-left: 4%;
+}

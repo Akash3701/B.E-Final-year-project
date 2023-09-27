@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.container .mypic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid black;
+}
+
+.mypic img{
+    height: 100%;
+    width: 100%;    
+    transition: 3s ease;
+}
+
+.mypic img:hover{
+    transform: scale(1.2);
+}
+
+.mytext{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+    padding-right: 5%;
+}
+
+.mytext h5{
+    font-size: 15px;
+}
+
+.mytext h5 span{
+    font-size: 20px;
+}
+
+.mytext h1{
+    font-size: 3rem;
+}
+
+.myvid{
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    padding-left: 50%;
+    padding-bottom: 5%;
+    padding-right: 3%;
+}
+
+.myvid video{
+    border: 8px solid white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
